@@ -3,11 +3,9 @@ public class Rotor
   char[] letters;
   int rotation;
 
-  public Rotor()
+  public Rotor(String s)
   {
-  }
-  
-  public Rotor makeRotor(String s){
+    
   }
 
   public char charAt(int n){
@@ -16,6 +14,6 @@ public class Rotor
   public int indexOf(char c){
   }
 
-  public void rotate(){
+  public boolean rotate(){
   }
 }
